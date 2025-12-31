@@ -1,0 +1,70 @@
+.form {
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.form .input {
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid #333;
+}
+.form input[type="submit"] {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.tasks {
+    margin: 20px auto;
+    width: 280px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #ddd;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.tasks div {
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.tasks div span {
+    background-color: red;
+    color: white;
+    padding: 0px 8px;
+    font-size: 10px;
+    align-content: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
